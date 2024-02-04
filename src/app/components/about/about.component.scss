@@ -1,0 +1,589 @@
+/*===================
+	Why choose CSS
+=====================*/
+.why-choose .choose-left h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2C2D3F;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+.why-choose .choose-left h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background: #13a2b7;
+}
+
+.why-choose .choose-left p {
+    margin-bottom: 35px;
+}
+
+.why-choose .choose-left .list {}
+
+.why-choose .choose-left .list li {
+    color: #868686;
+    margin-bottom: 12px;
+}
+
+.why-choose .choose-left .list li:last-child {
+    margin-bottom: 0px;
+}
+
+.why-choose .choose-left .list li i {
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    background: #13a2b7;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 100%;
+    padding-left: 2px;
+    margin-right: 16px;
+}
+
+/* Start Faq CSS */
+.why-choose {
+    background: #fff;
+}
+
+.why-choose .choose-right {
+    height: 100%;
+    width: 100%;
+    background-image: url('/assets/img/video-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.why-choose .choose-right .video {
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+    font-size: 21px;
+    background: #13a2b7;
+    padding-left: 4px;
+}
+
+.why-choose .choose-right .video:hover {
+    transform: scale(1.1);
+}
+
+.why-choose .video-image .waves-block .waves {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    border-radius: 100%;
+    -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -100px;
+}
+
+.why-choose .video-image .waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.why-choose .video-image .waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.why-choose .video-image .waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/*=======================
+	End Why choose CSS
+=========================*/
+
+/*=============================
+	Start Testimonials CSS
+===============================*/
+.testimonials {
+    background-image: url('/assets/img/testi-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.testimonials .section-title h2 {
+    color: #13a2b7;
+}
+
+.testimonials .section-title span {
+    color: #fff;
+}
+
+.testimonials .single-testimonial {
+    text-align: left;
+    position: relative;
+    background: #fff;
+    padding: 40px 30px;
+    margin: 5px;
+    margin-bottom: 27px;
+    margin-right: 30px;
+    border-radius: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin: 0;
+    margin: 30px 20px;
+}
+
+.testimonials .single-testimonial:hover {
+    box-shadow: 0px 10px 10px #0000001c;
+    transform: translateY(-4px);
+}
+
+.testimonials .single-testimonial img {
+    position: absolute;
+    left: 30px;
+    bottom: -26px;
+    height: 53px;
+    width: 53px;
+    border-radius: 100%;
+}
+
+.testimonials .single-testimonial p {
+    color: #868686;
+    font-size: 14px;
+}
+
+.testimonials .single-testimonial .name {
+    margin-top: 22px;
+    color: #2C2D3F;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.testimonials .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -55px;
+    margin-top: -47px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin: 0 0 0 -52px;
+    margin-top: 49px;
+    box-sizing: unset;
+}
+
+.testimonials .owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.testimonials .owl-dots .owl-dot:last-child {
+    margin: 0px;
+}
+
+.testimonials .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin: 0;
+    background: #fff;
+    position: relative;
+}
+
+.testimonials .owl-dots .owl-dot span:hover {
+    background: #fff;
+}
+
+.testimonials .owl-dots .owl-dot.active span {
+    background: #fff;
+    width: 20px;
+}
+
+/*=============================
+	End Testimonials CSS
+===============================*/
+
+
+/*=========================
+  Start About CSS
+===========================*/
+.about {
+    padding-bottom: 0;
+
+    .container {
+        padding-bottom: 100px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+}
+
+.about__video {
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .play-btn {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        /* background: $primary-color;
+	  color: $white-color; */
+        border-radius: 50%;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.about__text {
+    padding-left: 20px;
+
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    ul {
+        margin-bottom: 25px;
+
+        li {
+            list-style: none;
+            font-size: 15px;
+            color: #666666;
+            line-height: 36px;
+
+            i {
+                /* color: $primary-color; */
+                font-size: 15px;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+/* Wide Mobile = 480px */
+@media only screen and (max-width: 767px) {
+    .about__video {
+        margin-bottom: 40px;
+    }
+
+}
+
+/*---------------------
+	Testimonials
+  -----------------------*/
+.testimonials {
+    overflow: hidden;
+    // background: #f2f7f8;
+    padding-bottom: 90px;
+    max-height: 90%;
+
+    .section-title {
+        margin-bottom: 15px;
+    }
+}
+
+.testimonial__item {
+    /* background: $white-color; */
+    box-shadow: 0px 5px 20px rgba(0, 61, 85, 0.1);
+    border-radius: 10px;
+    position: relative;
+    padding: 40px 40px 30px 40px;
+    background-color: #ffff;
+    margin-bottom: 8px;
+
+    .rating {
+        position: absolute;
+        right: 40px;
+        top: 52px;
+
+        i {
+            font-size: 13px;
+            color: #e4c870;
+        }
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 0;
+    }
+}
+
+.testimonial__author {
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+
+.testimonial__author__icon {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    /* color: $white-color;
+	background: $primary-color; */
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.testimonial__author__text {
+    overflow: hidden;
+    padding-top: 4px;
+
+    h5 {
+        /* color: $heading-color; */
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 13px;
+        color: #888888;
+    }
+}
+
+.testimonial__slider {
+    max-height: 67vh;
+    overflow: auto;
+
+    .col-lg-6 {
+        max-width: 100%;
+    }
+
+    &.owl-carousel {
+
+        .owl-stage-outer {
+            padding-top: 30px;
+            padding-bottom: 40px;
+            overflow: visible;
+        }
+    }
+
+    .owl-dots {
+        text-align: center;
+
+        button {
+            height: 10px;
+            width: 10px;
+            background: #d2d2d2;
+            border-radius: 50%;
+            margin-right: 6px;
+
+            &.active {
+                background: #9c9c9c;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/* Tablet Device = 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .testimonial__item .rating {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* Small Device = 320px */
+@media only screen and (max-width: 479px) {
+    .testimonial__item .rating {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #111111;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------
+  Helper CSS
+-----------------------*/
+.section-title {
+    margin-bottom: 45px;
+
+    span {
+        font-size: 15px;
+        color: #888888;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        /* color: $heading-color; */
+        font-weight: 700;
+        margin-top: 8px;
+    }
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+    color: #fff;
+}
+
+/* buttons */
+.primary-btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 30px 10px;
+    text-transform: uppercase;
+    /* color: $heading-color; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #13a2b7;
+    border-radius: 5px;
+
+    &.normal-btn {
+        /* background: $primary-color;
+    color: $white-color; */
+        font-weight: 600;
+    }
+}
+
+.site-btn {
+    font-size: 15px;
+    /* color: $white-color;
+  background: $primary-color; */
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 30px 12px;
+}
+
+/*=========================
+  End About CSS
+===========================*/
